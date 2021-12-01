@@ -1,0 +1,8 @@
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use QCli\Command;
+
+$command = new Command();
+$command->run($argv);
