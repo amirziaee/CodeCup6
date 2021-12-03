@@ -1,0 +1,15 @@
+<?php
+
+namespace QCli\Commands;
+
+class {{ name }}
+{
+    protected string $signature = '{{ sign }}';
+
+    protected string $description = '{{ name }} description';
+
+    public function handle()
+    {
+        echo 'Command ' . $this->signature . ' is ready to implement';
+    }
+}
